@@ -5,11 +5,291 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="download.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:ital,wght@0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6ddd3a001f.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+
+    <header>
+        <div class="div">
+            <ul>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Home_(2021_film)" target="-blank"><i
+                            class="fas fa-home"></i>Home</a>
+                </li>
+                <li> <a href="https://www.facebook.com/spsumoniu/" target="-blank"><i class="far fa-user"></i>User
+                        <ul class="dropdown">
+                            <li><a href="">Sumon</a></li>
+                            <li><a href="">Sumon</a></li>
+                            <li><a href="">Sumon</a></li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><i class="fas fa-search"></i>Search</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/spsumoniu/" target="-blank"><i
+                            class="fas fa-envelope"></i>Contact</a>
+                </li>
+                <li>
+                    <a href="https://www.clientam.com/sso/Login" target="-blank"><i
+                            class="fas fa-fw fa-user"></i>Login</a>
+                </li>
+
+                <li>
+                    <a href="https://www.facebook.com/spsumoniu/" target="-blank"><i
+                            class="fas fa-address-card"></i>About us</a>
+                </li>
+
+                <ul class="icon">
+
+                    <li>
+                        <a href="https://www.facebook.com/spsumoniu/"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/spsumoniu/"> <i class="fab fa-youtube"></i> </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/spsumoniu/"> <i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/spsumoniu/"> <i class="fab fa-skype"></i></a>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+    </header>
+    <!-- Main-Part -->
+    <Main>
+        <div class="parent">
+            <div class="first-parent">
+                <h1 class="heading">Semantic tag</h1>
+
+                <p class="first-para">
+                    <b>Defination of Semantic</b>:-Semantic HTML or semantic markup is HTML that introduces
+                    meaning to the web page
+                    rather than just presentation. For example, a 'p' tag
+                    indicates that the enclosed text is a paragraph. This is both semantic and presentational because
+                    people know what paragraphs are, and browsers know how to display them.
+                    On the flip side of this equation, tags such as 'b' and 'i'are not semantic. They define only how
+                    the
+                    text should look (bold or italic), and don't provide any additional meaning to the markup.
+                </p>
+
+                <button class="button">
+                    <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">More Details</a>
+                </button>
+
+            </div>
+
+
+            <div class="second-parent">
+                <div class="container">
+                    <div class="inner">
+                        <img class="image" src="DSC_0653-01.png" alt="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="inner">
+                        <img class="image" src="sumon2.png" alt="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="inner">
+                        <img class="image" src="IMG_20200804_175121_onFire(Abhi)-02.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </Main>
+
+    <!-- Start-section -->
+    <section>
+
+        <div>
+            <h1 class="heading second-heading">My Photo Gallery</h1>
+        </div>
+
+        <div class="gallery">
+            <div class="photos">
+
+                <img id="first-pic" class="middle-photo" src="sumon1.png" alt="">
+
+
+                <figcaption class="caption">Sumon</figcaption>
+
+            </div>
+
+
+            <div class="photos">
+                <img id="second-pic" class="middle-photo" src="IMG_5522-01.png" alt="">
+
+
+                <figcaption class="caption">Sumon</figcaption>
+
+            </div>
+
+            <div class="photos">
+                <img class="middle-photo" src="sumon3.png" alt="">
+
+                <figcaption class="caption">Sumon</figcaption>
+            </div>
+            <div class="photos">
+                <img class="middle-photo" src="sumon4.png" alt="">
+
+
+                <figcaption class="caption">Taoshin</figcaption>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <!--third section-->
+    <section>
+        <h1 class="heading">Section of Media</h1>
+        <div class="media">
+            <div class="audio">
+                <audio src="audio/goat.mp3" controls></audio>
+            </div>
+
+            <div class="video">
+                <video src="video/Short video clip nature mp4.mkv" controls>
+                </video>
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <!---Table-->
+    <section>
+        <h1 class="heading">Section of Table</h1>
+        <table class="table">
+            <caption>-------My frind List--------</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Birthday</th>
+                    <th>Restaurant</th>
+                    <th>Road</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Polas</td>
+                <td>Bonani</td>
+                <td>15-10-1994</td>
+                <td>Kfc</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Sagor</td>
+                <td>Dhanmondi</td>
+                <td>26-07-1993</td>
+                <td>Adda</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Fahad</td>
+                <td>Badda</td>
+                <td>21-04-1995</td>
+                <td>khaidai</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Rumon</td>
+                <td>Mirpur-10</td>
+                <td>24-05-1994</td>
+                <td>Shakib-75</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <t d>Roni</td>
+                    <td>uttora</td>
+                    <td>06-06-1993</td>
+                    <td>Bichram</td>
+                    <td>5</td>
+            </tr>
+
+        </table>
+    </section>
+    <!---Youtube section-->
+
+    <section>
+        <h1 class="heading">YouTube</h1>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kZYCm-dt0UM?controls=0?&autoplay=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 

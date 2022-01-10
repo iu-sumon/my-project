@@ -1,0 +1,206 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.div
+{
+    text-align: left;
+}
+
+
+body
+{  
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: #92a8d1;
+}
+div ul 
+ {   border-radius: 10px;
+     display: flex;
+     background-color: yellowgreen;
+     padding-bottom: 5px;
+      margin: 10px;
+      height:15x;
+ }
+ 
+ div li{
+     list-style: none;
+    
+ }
+ li a{
+     text-decoration: none;
+     padding: 30px;
+     font-size:15px;
+     color: navy;
+ }
+ li a:hover
+ { 
+     background-color: rgb(204, 15, 204);
+ }
+ .dropdown li{
+     margin: 0px;
+     padding: 0px;
+ }
+.dropdown
+{
+    display: none;
+    position: absolute;
+    padding-left:10px;
+
+}
+div ul li:hover ul
+{
+    display: block;
+}
+ .icon
+{
+    padding-left: 400px;
+}
+
+.heading
+{   margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: saddlebrown;
+    font-size: 50px;
+}
+
+ .parent
+ {   
+     display: flex;
+     justify-content: space-between;
+     margin: 100px;
+    
+ }
+ 
+.first-parent
+{   width:600px;
+    
+    margin: 0px 30px;
+}
+.second-parent
+{   
+    margin-right: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+.image
+
+{  
+    
+   width:250px;
+}
+
+.first-para
+
+{    margin-top: 40px;
+    font-size: 25px;
+     
+
+}
+.button
+{  
+    text-decoration: none;
+    background-image: linear-gradient( cyan, blueviolet);
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+.button a
+{
+    text-decoration: none;
+}
+.button:hover
+{
+    background-image:linear-gradient(#fff,salmon);
+}
+.container
+{     
+background-color: #92a8d1;
+}
+ .inner 
+ {    
+ transform:rotate(30deg);
+ }
+
+ /*Second-section*/ 
+
+.second-heading
+{
+    text-align: center;
+}
+.sectwo-parent
+{
+    border: 1px solid;
+}
+
+.gallery
+{   padding: 0px;
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+}
+ .middle-photo
+ {   
+     width: 300px;
+      
+ }
+ #first-pic
+ {
+     height:225px;
+ }
+ #second-pic
+ {
+     height:225px;
+ }
+.caption
+  {    
+      text-align: center;
+      font-size: 20px;
+      font-weight: 600;
+      font-style: italic;
+      color: brown;
+  }
+.media
+{ 
+    display:flex ;
+    justify-content: space-around;
+}
+.audio
+{   border: 5px solid blanchedalmond;
+    border-radius: 20px;
+    padding-top:130px;
+}
+ .table
+{
+    width: 50px;
+    margin-left: 600px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+table, thead,th,tr,td{
+    border: 2px solid blanchedalmond;
+
+}
+ tr:nth-child(even)
+ {
+    
+ }
+ td:nth-child(odd)
+ {
+     background-color: lime;
+ }
+ th{
+     background-color:mediumvioletred;
+ }
+ .youtube
+ {
+     
+     margin-left: 590px;
+     margin-right: 520px;
+     border-radius: 5x;
+ }
